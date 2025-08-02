@@ -35,4 +35,5 @@
         });
         // 替换整个网页内容
         document.body.innerHTML = newHtml || '<p>未找到任何图片</p>';
+        alert('替换成功')
 })();
